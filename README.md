@@ -1,8 +1,8 @@
-# Wi-Fi CSI Contactless Heart Rate Monitor 🫀📶
+# NEOvitals 
 
-> **Non-invasive, contactless vital sign tracking using commodity Wi-Fi hardware.**
+> *Non-invasive, contactless cardiac monitoring leveraging commodity Wi-Fi Channel State Information (CSI) matrices processed through a multi-layer LSTM deep learning neural network for real-time temporal pattern recognition and BPM estimation.*
 
-Welcome to the **Wi-Fi CSI Contactless Heart Rate Monitor** project (inspired by the Pulse-Fi architecture). This repository provides a complete, publication-grade pipeline for estimating human heart rate in real-time by analyzing subtle perturbations in Wi-Fi signal propagation caused by cardiac motion.
+Welcome to the **NEOvitals** project. This repository provides a complete, publication-grade pipeline for estimating human heart rate in real-time by analyzing subtle perturbations in Wi-Fi signal propagation caused by cardiac motion.
 
 ---
 

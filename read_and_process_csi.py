@@ -1,6 +1,6 @@
 
 # * Eliminate the graphical interface and calculate amplitude values for each carrier.
-# * Add data preprocessing steps from Pulse-Fi paper.
+# * Add data preprocessing steps for NEOvitals.
 # * Predict heart rate using LSTM model.
 ###
 
@@ -206,7 +206,7 @@ def csi_data_read_parse(port: str, csv_writer, log_file_fd,callback=None):
 
         
         ###
-        # Pulse-Fi CSI data processing steps.
+        # NEOvitals CSI data processing steps.
         ###
 
         # Step 1: Amplitude conversion.
