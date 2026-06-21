@@ -10,7 +10,7 @@ Welcome to the **Wi-Fi CSI Contactless Heart Rate Monitor** project (inspired by
 
 The system operates across three primary stages, forming an end-to-end pipeline from signal acquisition to physiological prediction.
 
-![](./media/pf_architecture.png)
+![](./media/CSI-LSTM-NN.png)
 
 ### 1. Data Collection
 The hardware setup utilizes two ESP32 microcontrollers. One acts as a **Transmitter (Tx)**, emitting a steady, continuous stream of Channel State Information (CSI) packets. The other acts as a **Receiver (Rx)**. 
@@ -33,7 +33,7 @@ The processed signal window is fed into a specialized Long Short-Term Memory (LS
 
 The predictive core of this project is built using TensorFlow/Keras. We employ a stacked LSTM architecture optimized for sequential time-series data. It ingests a sliding window of 100 sequential, processed CSI packets and outputs a scalar BPM value.
 
-![](./media/pf_lstm.png)
+![](./media/System View.png)
 
 ### Network Architecture
 
