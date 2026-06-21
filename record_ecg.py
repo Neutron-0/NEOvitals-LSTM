@@ -11,9 +11,9 @@ samples = []
 
 start = time.time()
 
-print("Recording for 30 seconds...")
+print("Recording for 30 mins...")
 
-while time.time() - start < 30:
+while time.time() - start < 1800:
     try:
         line = ser.readline().decode().strip()
 

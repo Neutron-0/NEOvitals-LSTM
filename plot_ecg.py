@@ -5,8 +5,12 @@ df = pd.read_csv("ecg_data.csv")
 
 fs = 250  # approximate
 
+fs = 250
+
+minutes_to_show = 1
+
 start = 0
-end = fs * 5   # 5 seconds
+end = fs * 60 * minutes_to_show
 
 plt.figure(figsize=(12,4))
 plt.plot(df["ecg"][start:end])
